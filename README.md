@@ -35,7 +35,9 @@ Drivers.csv  -  This dataset contains information about drivers responsible for 
 
 --- 
 ## Dashboard Features 
-Although a visual dashboard was not created, the SQL analysis provides key insights that could be displayed on one. These include total sales and revenue trends, customer distribution by gender and age, top-selling product categories, profitability metrics such as cogs and gross margin, and transaction patterns over time. These insights help identify high-performing products, peak sales periods, and opportunities to improve overall business performance.
+- Key KPIs: total orders, on-time delivery rate, average delivery time, customer satisfaction (CSAT)
+- Visuals include: line, bar, column, scatter, and heatmap charts to represent order trends, hub utilization, driver performance, fleet reliability, and workload distribution
+- Interactivity: slicers for Date/Month, Hub, Driver, Vehicle, Delivery Status, and CSAT score
 
 --- 
 ## Key Findings
@@ -81,7 +83,7 @@ Although a visual dashboard was not created, the SQL analysis provides key insig
 --- 
  
 ## How to Run / View 
-1.	Open `FlowOps Performance ` in PowerBI Desktop (recommended)   
+1.	Open `FlowOps Performance `in PowerBI Desktop (recommended)   
 2.	Connect to the required data sources if prompted.
 3.	Navigate through the dashboard pages to explore different analyses.
 4.	Use slicers and filters to interact with the visuals and drill down into hubs, drivers, vehicles, or specific time periods.
