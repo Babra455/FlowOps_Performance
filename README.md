@@ -11,23 +11,26 @@ FlowOps Performance is a data analytics project focused on evaluating and improv
 --- 
  
 ## Project Objective 
-i.	Analyze month-over-month trends in total orders, on-time delivery rate, customer satisfaction (CSAT), and average delivery time to evaluate operational performance over time.
-ii.	 Assess hub capacity utilization by comparing the number of orders processed at each hub with its operational capacity to identify overloaded and underutilized hubs.
-iii.	Evaluate driver performance by analyzing delivery delay frequency, driver ratings, and years of experience to determine factors influencing delivery efficiency.
-iv.	Examine the relationship between driver workload and delivery delays to identify whether workload imbalance contributes to performance issues.
-v.	Analyze fleet reliability by investigating the relationship between vehicle age and breakdown frequency to determine the impact of aging vehicles on operational performance.
-vi.	 Evaluate breakdown trends across different vehicle models to identify models that may be more prone to mechanical failure.
-vii.	Analyze workload distribution across hubs, drivers, and vehicle types to detect operational imbalances and inefficiencies in resource allocation.
-viii.	 Provide data-driven recommendations to improve delivery efficiency, optimize fleet utilization, reduce delays, and enhance customer satisfaction.
+- Analyze month-over-month trends in total orders, on-time delivery rate, customer satisfaction (CSAT), and average delivery time to evaluate operational performance over time.
+- Assess hub capacity utilization by comparing the number of orders processed at each hub with its operational capacity to identify overloaded and underutilized hubs.
+- Evaluate driver performance by analyzing delivery delay frequency, driver ratings, and years of experience to determine factors influencing delivery efficiency.
+- Examine the relationship between driver workload and delivery delays to identify whether workload imbalance contributes to performance issues.
+- Analyze fleet reliability by investigating the relationship between vehicle age and breakdown frequency to determine the impact of aging vehicles on operational performance.
+- Evaluate breakdown trends across different vehicle models to identify models that may be more prone to mechanical failure.
+- Analyze workload distribution across hubs, drivers, and vehicle types to detect operational imbalances and inefficiencies in resource allocation.
+- Provide data-driven recommendations to improve delivery efficiency, optimize fleet utilization, reduce delays, and enhance customer satisfaction.
 
 --- 
  
 ## Datasets 
 
-**Vehicles.csv ** -  This dataset contains information about the logistics fleet and vehicle condition. It includes columns such as vehicle_id, vehicle_model, purchase_date, vehicle_status, breakdown, maintenance_count_alert, and vehicle_code. The dataset helps analyze fleet reliability, vehicle age, maintenance needs, and breakdown patterns across different vehicle models.
-**Orders.csv ** -  This dataset records all delivery transactions and operational activities. It includes fields such as order_id, order_date, actual_delivery_date, order_status, hub_name, driver_id, driver_name, vehicle_name, vehicle_type, delivery_time, hub_processing_time_hours, delay_reason, is_delayed, is_on_time, and customer_satisfaction. It serves as the main dataset for tracking delivery performance, delays, customer satisfaction, and overall logistics efficiency.
-**Hubs.csv  ** -  This dataset contains information about logistics hubs used for order processing and distribution. It includes columns such as hub_id, hub_name, and hub_capacity. The dataset is used to evaluate hub capacity utilization and identify overloaded or underutilized hubs.
-**Drivers.csv ** -  This dataset contains information about drivers responsible for deliveries. It includes fields such as driver_id, driver_name, employment_type, hire_date, experience_years, and performance_rate. This dataset supports analysis of driver performance, experience levels, and their impact on delivery efficiency and delays.
+Vehicles.csv  -  This dataset contains information about the logistics fleet and vehicle condition. It includes columns such as vehicle_id, vehicle_model, purchase_date, vehicle_status, breakdown, maintenance_count_alert, and vehicle_code. The dataset helps analyze fleet reliability, vehicle age, maintenance needs, and breakdown patterns across different vehicle models.
+
+Orders.csv -  This dataset records all delivery transactions and operational activities. It includes fields such as order_id, order_date, actual_delivery_date, order_status, hub_name, driver_id, driver_name, vehicle_name, vehicle_type, delivery_time, hub_processing_time_hours, delay_reason, is_delayed, is_on_time, and customer_satisfaction. It serves as the main dataset for tracking delivery performance, delays, customer satisfaction, and overall logistics efficiency.
+
+Hubs.csv -  This dataset contains information about logistics hubs used for order processing and distribution. It includes columns such as hub_id, hub_name, and hub_capacity. The dataset is used to evaluate hub capacity utilization and identify overloaded or underutilized hubs.
+
+Drivers.csv  -  This dataset contains information about drivers responsible for deliveries. It includes fields such as driver_id, driver_name, employment_type, hire_date, experience_years, and performance_rate. This dataset supports analysis of driver performance, experience levels, and their impact on delivery efficiency and delays.
 
 
 --- 
