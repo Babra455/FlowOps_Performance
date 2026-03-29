@@ -55,14 +55,15 @@ Drivers.csv  -  This dataset contains information about drivers responsible for 
 
 --- 
 ## Recommendations 
-1.	Hourly Failures: Implement time-based monitoring and alerts for high-failure hours (13:00, 04:00, 14:00) and consider load balancing or additional system checks during these peak hours to reduce failures.
-2.	 Daily Failures: Investigate processes on Day 6 and Day 4 to identify operational or system patterns causing spikes, and establish daily reconciliation routines to catch errors early.
-3.	Monthly Failures: Perform monthly trend analysis to understand recurring issues in Months 3 and 7, and schedule preventive system maintenance ahead of high-failure months.
-4.	 Status Inconsistencies: Strengthen data reconciliation between the app and Banklink, implement automated mismatch detection, and conduct regular audits to reduce accounting errors and disputes.
-5.	 Utility Transactions: Continue strict validation controls to maintain accurate utility transactions, and implement periodic reviews to ensure no duplicate or misassigned transactions occur.
-6.	 Provider Performance: Work with NIBSS to improve reliability and reduce failed transactions, while leveraging CoralPay’s high success rate as a benchmark for best practices across providers.
-7.	Orphaned Transactions: Implement automated orphan detection and resolution processes, especially for Banklink, to minimize unmatched transactions and improve transaction alignment.
-8.	 Financial Exposure: Establish real-time monitoring and alerts for failed and missing transactions, strengthen reconciliation processes, and conduct root-cause analysis to prevent recurring financial losses.
+1.	Improve fleet availability tracking: Maintain and regularly update vehicle status (active, maintenance, draft) to ensure maximum fleet readiness and reduce downtime.
+2.	Strengthen preventive maintenance strategy: Use breakdown trends by year (e.g., higher breakdowns in 2019 vehicles) to schedule proactive maintenance rather than reactive repairs.
+3.	Address seasonal and monthly demand patterns: Plan fleet capacity and staffing around peak months like May and high breakdown periods like October to avoid service disruptions.
+4.	Leverage experienced drivers: Assign high-priority or time-sensitive deliveries to more experienced drivers (5+ years) who demonstrate more consistent high ratings.
+5.	Implement driver training programs: Focus on supporting less experienced drivers (1–2 years) to reduce performance variability and improve consistency in ratings.
+6.	Enhance driver performance monitoring: Closely monitor drivers with high delays, such as Christopher Martin, and provide targeted training or support to improve delivery timeliness.
+7.	Reallocate vehicle usage: Increase use of underutilized vehicle types like box trucks where appropriate, and ensure optimal assignment of vans since they handle the majority of orders.
+8.	Optimize fleet utilization: Investigate underutilization in hubs like Houston and redistribute workloads or routes to better balance order distribution across hubs.
+9.	Improve maintenance for high-risk vehicles: Prioritize regular inspections and preventive maintenance for Freightliner M2 and vehicle code FT-010, as they record the highest breakdowns and usage.
 
 
  
