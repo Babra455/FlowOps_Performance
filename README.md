@@ -35,8 +35,8 @@ Drivers.csv  -  This dataset contains information about drivers responsible for 
 
 --- 
 ## Dashboard Features 
-- Key KPIs: total orders, on-time delivery rate, average delivery time, customer satisfaction (CSAT)
-- Visuals include: line, bar, column, scatter, and heatmap charts to represent order trends, hub utilization, driver performance, fleet reliability, and workload distribution
+- Key KPIs: total orders, on-time delivery rate, average delivery time, customer satisfaction (CSAT), number of drivers, number of hubs  
+- Visuals include: line, bar, column and scatter to represent order trends, hub utilization, driver performance, fleet reliability, and workload distribution
 - Interactivity: slicers for Date/Month, Hub, Driver, Vehicle, Delivery Status, and CSAT score
 
 --- 
