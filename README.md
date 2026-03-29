@@ -41,14 +41,16 @@ Drivers.csv  -  This dataset contains information about drivers responsible for 
 
 --- 
 ## Key Findings
-1.	The hour with the highest number of transaction failures is 13:00, followed by 04:00 and 14:00, while the lowest failures occur at 01:00, 18:00, and 08:00.
-2.	 Day 6 records the highest number of failures, followed by Day 4, and Day 2 has the lowest number of failures.
-3.	Monthly trends indicate that Month 3 has the highest number of failures, followed by Month 7, whereas Month 2 and Month 9 record the lowest failures.
-4.	Status inconsistencies exist across all systems, with the largest mismatches between the app and Banklink, totaling 922, while app–CoralPay mismatches are the lowest at 489.
-5.	There are no duplicate utility transactions and no transactions assigned to the wrong provider, indicating that utility transactions are being accurately recorded.
-6.	 CoralPay processes a higher number of transactions, including both successful and failed ones, and maintains a high success rate of 81.85%, while NIBSS has the highest number of failed transactions at 7,516, resulting in a failure rate of 20.52%.
-7.	Orphaned transactions, which occur when a transaction appears in the system without a corresponding match in partner records, are highest for Banklink at 1,140, with a high total orphaned amount, and lowest for iRecharge at 371 with a lower total amount.
-8.	Overall, the total failed transaction amount is 240,524,436.96, with missing amounts in Banklink and NIBSS of 52,653,820.81 and 82,540,011.63 respectively, leading to an average daily loss of 329,485.53 and a total financial exposure of 1,378,399,256.96, highlighting the need for improved monitoring and reconciliation.
+1. Freightliner M2 records both the highest number of breakdowns and the highest count of Order IDs, indicating it is the most frequently used vehicle, while Chevrolet Express records the lowest breakdowns and Ford F-150 records the lowest Order IDs.
+2. Vehicle code FT-010 is associated with the highest sum of breakdowns, indicating it requires the most attention in terms of maintenance and reliability.
+3. From 2018 to 2023, October records the highest sum of breakdowns while September records the lowest, indicating a seasonal pattern in vehicle reliability.
+4. Vehicles from 2019 show higher breakdowns than those from 2018, suggesting that breakdowns are influenced not only by age but also by factors such as usage and maintenance.
+5. While smaller hubs like Dallas handle a high number of orders efficiently, Houston, despite having high capacity, processes fewer orders, suggesting underutilization.
+6. Orders vary by month, with May recording the highest number of orders and February the lowest, indicating peak demand around May and lower activity in February.
+7. Most vehicles are active, with 33 (73.33%) in active status, while 12 are either needing maintenance or marked as draft, indicating the fleet is largely operational but some vehicles require attention.
+8. Vans account for approximately 62.48% of total Order IDs, making them the most utilized vehicle type, while box trucks account for about 4.4%, indicating the lowest usage among vehicle types.
+9. Christopher Martin records the highest number of Order IDs and the highest count of delayed deliveries among all drivers, indicating a need for closer monitoring or support to improve timeliness.
+10. Less experienced drivers (1–2 years) show wide variability in ratings, while from 3+ years onward, lower ratings disappear and scores stabilize between 3–5. Highly experienced drivers (10 years) consistently achieve the highest ratings (4–5), indicating stronger and more reliable performance.
 
 
 --- 
