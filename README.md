@@ -90,11 +90,9 @@ Drivers.csv  -  This dataset contains information about drivers responsible for 
 3.	Navigate through the dashboard pages to explore different analyses.
 4.	Use slicers and filters to interact with the visuals and drill down into hubs, drivers, vehicles, or specific time periods.
 5.	Review KPI cards, charts, and tables to understand trends, performance metrics, and operational insights.
-6.	Refer to `TransPath Oversight Presentation.pdf` for a summary of insights and recommended actions 
-
  
 
- 
+  
 --- 
  
 ## Contact 
