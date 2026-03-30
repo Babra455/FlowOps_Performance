@@ -8,6 +8,9 @@
 ## Project Background 
 FlowOps Performance is a data analytics project focused on evaluating and improving logistics operations through data-driven insights. It analyzes data from orders, hubs, drivers, and vehicles to track key performance metrics such as order volume, on-time delivery rate, customer satisfaction, and delivery time. The project also examines hub utilization, driver performance, workload distribution, and fleet reliability to identify operational inefficiencies. Insights are presented through interactive Power BI dashboards to support better decision-making and improve overall logistics efficiency.
 
+Presentation Slides
+[View on Google Drive](https://docs.google.com/presentation/d/1dbMXTWu_nelacjHM0BVTZe9tzrY40MnwNUr0yjLNxFE/edit?usp=sharing)
+
 --- 
  
 ## Project Objective 
