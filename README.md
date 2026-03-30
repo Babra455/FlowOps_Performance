@@ -35,9 +35,9 @@ Drivers.csv  -  This dataset contains information about drivers responsible for 
 
 --- 
 ## Dashboard Features 
-- Key KPIs: total orders, on-time delivery rate, average delivery time, customer satisfaction (CSAT), number of drivers, number of hubs  
-- Visuals include: line, bar, column and scatter to represent order trends, hub utilization, driver performance, fleet reliability, and workload distribution
-- Interactivity: slicers for Date/Month, Hub, Driver, Vehicle, Delivery Status, and CSAT score
+- Key KPIs: total orders, on-time delivery rate, average delivery time, average customer satisfaction (CSAT), number of drivers, number of hubs  
+- Visuals include: line, bar, column and scatter plot to represent order trends, hub utilization, driver performance, fleet reliability, and workload distribution
+- Interactivity: slicers for Year, Hub, Driver, Vehicle, Delivery Status, and CSAT score
 
 --- 
 ## Key Findings
@@ -89,7 +89,7 @@ Drivers.csv  -  This dataset contains information about drivers responsible for 
 1.	Open `FlowOps Performance `in PowerBI Desktop (recommended)   
 2.	Connect to the required data sources if prompted.
 3.	Navigate through the dashboard pages to explore different analyses.
-4.	Use slicers and filters to interact with the visuals and drill down into hubs, drivers, vehicles, or specific time periods.
+4.	Use slicers and filters to interact with the visuals and drill down into years or drivers
 5.	Review KPI cards, charts, and tables to understand trends, performance metrics, and operational insights.
  
 
